@@ -1,8 +1,15 @@
+@font-face {
+    font-family: calculator;
+    src: url(./fonts/Calculator.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
+    font-family: calculator;
+    font-weight: 900;
 }
 .parent {
     width: 50vw;
@@ -15,7 +22,7 @@
     grid-column-gap: 2px;
     grid-row-gap: 2px;
     text-align: center;
-    font-size:x-large;
+    font-size:xxx-large;
     color: black;
     
     }
